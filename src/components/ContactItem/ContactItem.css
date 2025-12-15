@@ -1,0 +1,50 @@
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 12px;
+    border: 1px solid #ececec;
+    border-radius: 12px;
+    background: #fff;
+}
+  
+.contact-item__main {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+  
+.contact-item__name {
+    font-weight: 700;
+} 
+.contact-item__meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    color: #555;
+    font-size: 14px;
+}
+.contact-item__meta-item {
+    background: #f3f3f3;
+    border: 1px solid #e9e9e9;
+    padding: 4px 8px;
+    border-radius: 999px;
+}
+.contact-item__dot {
+    color: #999;
+}
+
+.contact-item__delete-btn {
+    padding: 9px 12px;
+    border: 1px solid #c73333;
+    background: #fff;
+    color: #c73333;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s, opacity 0.2s;
+}
+.contact-item__delete-btn:hover {
+    transform: scale(1.03);
+    opacity: 0.9;
+}  

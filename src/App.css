@@ -1,0 +1,25 @@
+.app {
+  min-height: 100vh;
+  padding: 40px 16px;
+  font-family: Arial, sans-serif;
+  background: #c993ec;
+}
+
+.app__container {
+  max-width: 720px;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid #e7e7e7;
+  border-radius: 14px;
+  padding: 18px;
+}
+
+.app__title {
+  margin: 0 0 14px;
+  font-size: 22px;
+}
+
+.app__empty {
+  margin: 14px 0 0;
+  color: #666;
+}
